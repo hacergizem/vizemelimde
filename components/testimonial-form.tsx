@@ -59,7 +59,7 @@ export function TestimonialCarousel() {
                     <AvatarFallback>{testimonial.name[0]}</AvatarFallback>
                   </Avatar>
                   <p className="text-sm text-muted-foreground">
-                    "{testimonial.comment}"
+                    {testimonial.comment}
                   </p>
                   <span className="text-sm font-medium">
                     {testimonial.name}

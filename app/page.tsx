@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { CheckCircle, Globe, Users } from "lucide-react";
+import { CheckCircle, Users } from "lucide-react";
 
 import { Progress } from "@/components/ui/progress";
 import { Timeline } from "@/components/process-timeline";
