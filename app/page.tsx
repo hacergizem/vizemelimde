@@ -12,7 +12,7 @@ export default function Home() {
       {/* Header */}
       <header className="flex items-center justify-center gap-4 py-10">
         <Image
-          src="/logo.png"
+          src="https://iili.io/3MvRrzu.md.png"
           alt="Vizemelimde Logo"
           width={350}
           height={100}
