@@ -8,37 +8,31 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const testimonials = [
   {
     name: "Ayşe Yılmaz",
     comment:
       "Vize sürecim boyunca bana çok yardımcı oldular. Her şey çok hızlı ve sorunsuz ilerledi!",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
   },
   {
     name: "Mehmet Kaya",
     comment:
       "Danışmanlık hizmetleri gerçekten profesyonel. Tüm süreci detaylıca anlattılar.",
-    image: "https://randomuser.me/api/portraits/men/46.jpg",
   },
   {
     name: "Zeynep Demir",
     comment:
       "İlk defa vize başvurusu yaparken bu kadar güvende hissettim. Teşekkürler!",
-    image: "https://randomuser.me/api/portraits/women/68.jpg",
   },
   {
     name: "Ali Koç",
     comment: "Süper bir ekip, her soruma anında cevap verdiler.",
-    image: "https://randomuser.me/api/portraits/men/33.jpg",
   },
   {
     name: "Elif Aksoy",
     comment:
       "Gönül rahatlığıyla herkese tavsiye edebilirim. İşlerini çok iyi yapıyorlar.",
-    image: "https://randomuser.me/api/portraits/women/55.jpg",
   },
 ];
 
@@ -51,13 +45,6 @@ export function TestimonialCarousel() {
             <div className="p-4">
               <Card>
                 <CardContent className="p-6 flex flex-col items-center text-center gap-4">
-                  <Avatar className="w-16 h-16">
-                    <AvatarImage
-                      src={testimonial.image}
-                      alt={testimonial.name}
-                    />
-                    <AvatarFallback>{testimonial.name[0]}</AvatarFallback>
-                  </Avatar>
                   <p className="text-sm text-muted-foreground">
                     {testimonial.comment}
                   </p>
